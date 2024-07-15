@@ -28,8 +28,12 @@ The classification model utilizes MobileNetV2, a lightweight and efficient convo
 
 The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed for enhancing low-resolution images by removing pixelation. Below is an overview of its architecture and key components:
 
-
 # Architecture
+
+![architecture](https://github.com/user-attachments/assets/282224a1-2182-4d94-81b9-cb31424055f7)
+
+
+
 1. Convolutional Layers for Feature Extraction:
 
     - Layer 1: Convolutional layer with 8 filters and a 5x5 kernel size. This layer is responsible for initial feature extraction from the input image.
