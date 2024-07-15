@@ -12,6 +12,11 @@ This repository offers a comprehensive solution for detecting and removing image
 
 
 
+# Dataset Used
+
+The dataset used in this project is derived from the DIV2K collection available through TensorFlow Datasets (TFDS). It comprises high-resolution images with dimensions of 1200x1200 pixels, which serve as the ground truth for model training. To create the corresponding low-resolution images, each high-resolution image is downscaled by a factor of 6, resulting in images with a resolution of 200x200 pixels. This degradation process simulates real-world pixelation and loss of detail, enabling the model to learn effective image enhancement techniques. The dataset thus includes pairs of high-resolution and degraded low-resolution images for supervised training and evaluation of the image super-resolution and pixelation removal models.
+
+
 
 # MobileNetV2 for Pixelation Classification
 
@@ -20,6 +25,7 @@ The classification model utilizes MobileNetV2, a lightweight and efficient convo
 
 
 # ESPCN Model for Pixelation Removal
+
 The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed for enhancing low-resolution images by removing pixelation. Below is an overview of its architecture and key components:
 
 
