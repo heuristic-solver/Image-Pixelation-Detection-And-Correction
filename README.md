@@ -30,8 +30,7 @@ The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed f
 
 # Architecture
 
-![architecture](https://github.com/user-attachments/assets/282224a1-2182-4d94-81b9-cb31424055f7)
-
+![arch](https://github.com/user-attachments/assets/85151f6f-3429-4f0a-9565-925348ca4b6e)
 
 
 1. Convolutional Layers for Feature Extraction:
