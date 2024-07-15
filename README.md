@@ -11,6 +11,14 @@ This repository offers a comprehensive solution for detecting and removing image
 - Seaborn
 
 
+
+
+# MobileNetV2 for Pixelation Classification
+
+The classification model utilizes MobileNetV2, a lightweight and efficient convolutional neural network architecture designed for mobile and edge devices. MobileNetV2 is known for its use of depthwise separable convolutions, which significantly reduce computational complexity while maintaining high accuracy. In this implementation, MobileNetV2 serves as the base model for feature extraction, with its pre-trained weights on ImageNet providing a strong foundation for detecting pixelation in images.
+
+
+
 # ESPCN Model for Pixelation Removal
 The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed for enhancing low-resolution images by removing pixelation. Below is an overview of its architecture and key components:
 
