@@ -47,6 +47,6 @@ The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed f
    
     The final stage of the model involves a sub-pixel convolution layer, which performs upsampling of the image patches. This layer helps reconstruct the high-resolution output from the processed feature maps.
 
-The classifier.ipynb file uses MobileNet V2 to classify whether a given input image is pixelated or not. If it is pixelated, the image is sent to the ESPCN model defined in espcn_model.ipynb. 
+The make_classif_mob.ipynb file uses MobileNet V2 to classify whether a given input image is pixelated or not. If it is pixelated, the image is sent to the ESPCN model defined in espcn_model (1).ipynb. 
 
 The model works by creating patches of the input pixelated images and enhancing each patch of the image one by one. Finally, the patches from the model are processed to remove any duplicated features and are combined together which would be depixelated.
