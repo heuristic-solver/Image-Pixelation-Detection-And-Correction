@@ -32,9 +32,9 @@ The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed f
 # Architecture
 1. Convolutional Layers for Feature Extraction:
 
-    - Layer 1: Convolutional layer with 16 filters and a 5x5 kernel size. This layer is responsible for initial feature extraction from the input image.
-    - Layer 2: Convolutional layer with 16 filters and a 3x3 kernel size. It continues the feature extraction process by refining the features obtained from the previous layer.
-    - Layer 3: Convolutional layer with 16 filters and a 2x2 kernel size. This layer further refines the features, preparing them for the subsequent stages of the model.
+    - Layer 1: Convolutional layer with 8 filters and a 5x5 kernel size. This layer is responsible for initial feature extraction from the input image.
+    - Layer 2: Convolutional layer with 8 filters and a 3x3 kernel size. It continues the feature extraction process by refining the features obtained from the previous layer.
+    - Layer 3: Convolutional layer with 8 filters and a 2x2 kernel size. This layer further refines the features, preparing them for the subsequent stages of the model.
 
 
 2. Residual Connections:
