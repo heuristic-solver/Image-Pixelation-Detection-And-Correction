@@ -54,4 +54,5 @@ Kudos to my team members!
 
 - [@ejayynt](https://github.com/ejayynt)
 - [@ShadowKing47](https://github.com/ShadowKing47)
+- [@synaptic-scribe](https://github.com/synaptic-scribe)
 
