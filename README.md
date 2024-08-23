@@ -1,8 +1,8 @@
-# Image-Pixelation-Detection-And-Correction
+# <p align="center">Image-Pixelation-Removal-And-Correction</p>
 
 This repository offers a comprehensive solution for detecting and removing image pixelation using deep learning models. It leverages MobileNetV2 for pixelation detection and ESPCN for high-quality depixelation.
 
-# Libraries Required
+# <p align="center">Libraries Required</p>
 - TensorFlow 
 - OpenCV
 - Keras
@@ -11,19 +11,19 @@ This repository offers a comprehensive solution for detecting and removing image
 - Scikit-learn
 - Seaborn
 
-# Dataset Used
+# <p align="center">Dataset</p>
 
 The dataset used in this project is derived from the DIV2K collection available through TensorFlow Datasets (TFDS). It comprises high-resolution images with dimensions of 1200x1200 pixels, which serve as the ground truth for model training. To create the corresponding low-resolution images, each high-resolution image is downscaled by a factor of 6, resulting in images with a resolution of 200x200 pixels. This degradation process simulates real-world pixelation and loss of detail, enabling the model to learn effective image enhancement techniques. The dataset thus includes pairs of high-resolution and degraded low-resolution images for supervised training and evaluation of the image super-resolution and pixelation removal models.
 
-# MobileNetV2 for Pixelation Classification
+# <p align="center">MobileNetV2 for Pixelation Classification</p>
 
 The classification model utilizes MobileNetV2, a lightweight and efficient convolutional neural network architecture designed for mobile and edge devices. MobileNetV2 is known for its use of depthwise separable convolutions, which significantly reduce computational complexity while maintaining high accuracy. In this implementation, MobileNetV2 serves as the base model for feature extraction, with its pre-trained weights on ImageNet providing a strong foundation for detecting pixelation in images.
 
-# ESPCN Model for Pixelation Removal
+# <p align="center">ESPCN Model for Pixelation Removal</p>
 
 The ESPCN (Efficient Sub-Pixel Convolutional Neural Network) model is designed for enhancing low-resolution images by removing pixelation. Below is an overview of its architecture and key components:
 
-# Architecture
+# <p align="center">Architecture</p>
 
 ![architecture](https://github.com/user-attachments/assets/fa3bd6ed-a7ae-4ec7-ac4a-71e7df13a97f)
 
@@ -49,7 +49,7 @@ The make_classif_mob.ipynb file uses MobileNet V2 to classify whether a given in
 
 The model works by creating patches of the input pixelated images and enhancing each patch of the image one by one. Finally, the patches from the model are processed to remove any duplicated features and are combined together which would be depixelated.
 
-# Contributors
+# <p align="center">Contributors</p>
 Kudos to my team members!
 
 - [@ejayynt](https://github.com/ejayynt)
